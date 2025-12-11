@@ -1,0 +1,49 @@
+{
+  "agent_name": "AccurateAgent-Thorough",
+  "agent_id": "test-agent-003",
+  "evaluation_id": "eval-2024-12-11-003",
+  "pass_rate": 0.95,
+  "tasks_passed": 19,
+  "total_tasks": 20,
+  "tasks_failed": 1,
+  "average_time_sec": 78.5,
+  "total_time_sec": 1570.0,
+  "created_at": "2024-12-11T12:00:00Z",
+  "tasks_by_difficulty": {
+    "easy": {
+      "passed": 8,
+      "failed": 0
+    },
+    "medium": {
+      "passed": 8,
+      "failed": 0
+    },
+    "hard": {
+      "passed": 3,
+      "failed": 1
+    }
+  },
+  "task_results": [
+    {
+      "task_id": "system-admin-001",
+      "passed": true,
+      "execution_time_sec": 45.8,
+      "difficulty": "easy",
+      "category": "system-administration"
+    },
+    {
+      "task_id": "coding-compile-001",
+      "passed": true,
+      "execution_time_sec": 95.3,
+      "difficulty": "medium",
+      "category": "coding"
+    },
+    {
+      "task_id": "security-vuln-001",
+      "passed": true,
+      "execution_time_sec": 156.2,
+      "difficulty": "hard",
+      "category": "security"
+    }
+  ]
+}
