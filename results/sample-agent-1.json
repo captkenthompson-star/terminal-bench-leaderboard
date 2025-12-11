@@ -1,0 +1,50 @@
+{
+  "agent_name": "TestAgent-Python-Expert",
+  "agent_id": "test-agent-001",
+  "evaluation_id": "eval-2024-12-11-001",
+  "pass_rate": 0.85,
+  "tasks_passed": 17,
+  "total_tasks": 20,
+  "tasks_failed": 3,
+  "average_time_sec": 45.3,
+  "total_time_sec": 906.0,
+  "created_at": "2024-12-11T10:30:00Z",
+  "tasks_by_difficulty": {
+    "easy": {
+      "passed": 8,
+      "failed": 0
+    },
+    "medium": {
+      "passed": 7,
+      "failed": 2
+    },
+    "hard": {
+      "passed": 2,
+      "failed": 1
+    }
+  },
+  "task_results": [
+    {
+      "task_id": "system-admin-001",
+      "passed": true,
+      "execution_time_sec": 23.5,
+      "difficulty": "easy",
+      "category": "system-administration"
+    },
+    {
+      "task_id": "coding-compile-001",
+      "passed": true,
+      "execution_time_sec": 67.2,
+      "difficulty": "medium",
+      "category": "coding"
+    },
+    {
+      "task_id": "security-vuln-001",
+      "passed": false,
+      "execution_time_sec": 120.0,
+      "difficulty": "hard",
+      "category": "security",
+      "error_message": "Failed to identify SQL injection vulnerability"
+    }
+  ]
+}
