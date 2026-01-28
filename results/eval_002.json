@@ -1,0 +1,12 @@
+﻿{
+  "participants": {
+    "agent": "019b0acc-84aa-75f0-a035-5ec98d0c135d"
+  },
+  "results": [
+    {
+      "pass_rate": 90.0,
+      "time_used": 52.1,
+      "max_score": 20
+    }
+  ]
+}
